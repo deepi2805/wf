@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    height: 100px;
+    background-color: #263859;
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+  }
+  
+  #search-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  
+  #temp{
+    text-align: center;
+  }
+  
+  #temp #temp-unit{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    color: #ffffff;
+  }
+  
+  #climate{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  #humidity{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 1.5rem;
+      color: #ffffff;
+      text-align: center;
+  }
+  
+  
+  
+  #location{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5rem;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  #temp-icon{
+    margin:1rem;
+    width: 40%;
+    height: auto;
+  }
+
+  .wind{
+    font-size: 1.5 rem;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  main{
+    padding: 20px;
+    margin-top: 10px;
+    background-color: #6b778d;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/002/174/599/non_2x/realistic-brown-wood-template-free-vector.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 360px;
+    height:400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 20px 10px rgba(112, 102, 102, 0.2);
+  }
+  
+  #search-button{
+    color: #494949;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: white;
+    border-radius: 5px;
+    margin-left: 4px;
+    padding: 6px;
+    border:2px solid #494949;
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  #search-button:hover{
+    color: #ffffff;
+    background : #ff6768;
+    background-color : #ff6768;
+  }
+  
+  input{
+    border: none;
+    size: 50px;
+  }
+  
+  #search-input{
+    border-radius: 4px;
+    font-size: 15px;
+    color: black;
+    margin: 10px;
+    height: 40px;
+    width: 180px;
+    box-shadow: 10px 10px 20px 10px rgba(15, 15, 15, 0.6);
+    border: none;
+    border-bottom: 2px solid red;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    background-color:yellow;
+    opacity: 0.5;
+  }
